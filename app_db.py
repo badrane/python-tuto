@@ -2,7 +2,7 @@ from ZODB import FileStorage, DB
 
 
 class app_db(object):
-    def __init__(self, path='/home/hme/data/Data.fs'):
+    def __init__(self, path='Data.fs'):
         self.storage = FileStorage.FileStorage(path)
         self.db = DB(self.storage)
         self.connection = self.db.open()

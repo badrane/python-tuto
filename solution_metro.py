@@ -30,4 +30,4 @@ for tr in table.findAll('tr'):
         index += 1
     data.append([station, lignes])
 
-print(data)
+#print(data)

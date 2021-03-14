@@ -4,7 +4,7 @@ import re
 
 regex = r"\A[12][0-9]{2}[0-1][0-9](2[AB]|[0-9]{2})[0-9]{3}[0-9]{3}"
 
-test_str = "3570575358004"
+test_str = "1570557160004"
 
 prog = re.compile(regex)
 result = prog.match(test_str)
