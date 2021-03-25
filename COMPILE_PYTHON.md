@@ -42,7 +42,7 @@ Voir dans le fichier la ligne 29 , pour verifier l'application des optimisations
 
 ## Mise en place du virtualenv sous Ubuntu
 ```shell
-cd tp-bac-4
+cd python-tuto
 python3 -m venv venv
 source venv/bin/activate
 ```
